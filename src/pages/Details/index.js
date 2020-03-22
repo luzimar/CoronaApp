@@ -10,7 +10,7 @@ export default function Details({route}) {
       <Transparency colors={['transparent', 'black']}>
         <StatusBar barStyle="light-content" />
         <Text>Cases: {data.cases}</Text>
-        <Text>Cases today: {data.todayCases}</Text>
+        <Text>Today cases: {data.todayCases}</Text>
         <Text>Deaths: {data.deaths}</Text>
         <Text>Today deaths: {data.todayDeaths}</Text>
         <Text>Recovered: {data.recovered}</Text>
